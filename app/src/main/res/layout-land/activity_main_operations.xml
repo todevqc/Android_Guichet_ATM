@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainOperations">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:paddingTop="15dp"
+            android:paddingBottom="8dp">
+
+            <TextView
+                android:id="@+id/textViewTitre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:text="Bonjour Android ATM"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/btnLogout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:backgroundTint="@android:color/holo_red_dark"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="déconnexion" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp">
+
+            <Button
+                android:id="@+id/btn0"
+                android:layout_width="74dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="5dp"
+                android:backgroundTint="#434B51"
+                android:text="0" />
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="74dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:backgroundTint="#434B51"
+                android:text="1" />
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="74dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:backgroundTint="#434B51"
+                android:text="2" />
+
+            <Button
+                android:id="@+id/btn3"
+                android:layout_width="74dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="20dp"
+                android:backgroundTint="#434B51"
+                android:text="3" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp">
+
+            <Button
+                android:id="@+id/btn4"
+                android:layout_width="74dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="5dp"
+                android:backgroundTint="#434B51"
+                android:text="4" />
+
+            <Button
+                android:id="@+id/btn5"
+                android:layout_width="74dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:backgroundTint="#434B51"
+                android:text="5" />
+
+            <Button
+                android:id="@+id/btn6"
+                android:layout_width="74dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:backgroundTint="#434B51"
+                android:text="6" />
+
+            <Button
+                android:id="@+id/btn7"
+                android:layout_width="74dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="20dp"
+                android:backgroundTint="#434B51"
+                android:text="7" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp">
+
+            <Button
+                android:id="@+id/btn8"
+                android:layout_width="74dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="5dp"
+                android:backgroundTint="#434B51"
+                android:text="8" />
+
+            <Button
+                android:id="@+id/btn9"
+                android:layout_width="74dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:backgroundTint="#434B51"
+                android:text="9" />
+
+            <Button
+                android:id="@+id/btnVirgule"
+                android:layout_width="74dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:backgroundTint="#434B51"
+                android:text="," />
+
+            <Button
+                android:id="@+id/btnC"
+                android:layout_width="74dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="20dp"
+                android:backgroundTint="#434B51"
+                android:text="C" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/valueOperation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="25dp"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="20dp">
+
+            <RadioGroup
+                android:id="@+id/rgOperation"
+                android:layout_width="140dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="30dp"
+                android:checkedButton="@id/rbDepot">
+
+                <RadioButton
+                    android:id="@+id/rbDepot"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="40dp"
+                    android:text="Dépot" />
+
+                <RadioButton
+                    android:id="@+id/rbRetrait"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="40dp"
+                    android:text="Retrait" />
+
+                <RadioButton
+                    android:id="@+id/rbVirement"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="40dp"
+                    android:text="Virement" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/rgCompte"
+                android:layout_width="140dp"
+                android:layout_height="120dp"
+                android:checkedButton="@id/rbCheque">
+
+                <RadioButton
+                    android:id="@+id/rbCheque"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="40dp"
+                    android:text="Cheque" />
+
+                <RadioButton
+                    android:id="@+id/rbEpargne"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="40dp"
+                    android:text="Épargne" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="15dp">
+
+            <Button
+                android:id="@+id/btnEtatCompte"
+                android:layout_width="0dp"
+                android:layout_height="52dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:backgroundTint="@android:color/holo_blue_dark"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="État des comptes" />
+
+            <Button
+                android:id="@+id/btnSoumettre"
+                android:layout_width="0dp"
+                android:layout_height="52dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:backgroundTint="@android:color/holo_blue_dark"
+                android:text="soumettre" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/resumOperation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="#F1EEEE"
+            android:paddingLeft="10dp"
+            android:paddingRight="8dp"
+            android:textAlignment="textStart"
+            android:textColor="@color/teal_700"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

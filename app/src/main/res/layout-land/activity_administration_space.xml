@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AdministrationSpace">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_Logout"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_gravity="right"
+            android:layout_margin="20dp"
+            android:backgroundTint="@android:color/holo_red_dark"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="Déconnexion" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|center_horizontal"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_interet"
+                    android:layout_width="220dp"
+                    android:layout_height="65dp"
+                    android:layout_marginRight="10dp"
+                    android:backgroundTint="@android:color/holo_blue_dark"
+                    android:text="Paiement des intérêts" />
+
+                <Button
+                    android:id="@+id/btn_compte_cheque"
+                    android:layout_width="220dp"
+                    android:layout_height="65dp"
+                    android:layout_marginLeft="10dp"
+                    android:backgroundTint="@android:color/holo_blue_dark"
+                    android:text="comptes chèque" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|center_horizontal"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_compte_epargne"
+                    android:layout_width="220dp"
+                    android:layout_height="65dp"
+                    android:layout_marginRight="10dp"
+                    android:backgroundTint="@android:color/holo_blue_dark"
+                    android:text="comptes épargne" />
+
+                <Button
+                    android:id="@+id/btn_liste_client"
+                    android:layout_width="220dp"
+                    android:layout_height="65dp"
+                    android:layout_marginLeft="10dp"
+                    android:backgroundTint="@android:color/holo_blue_dark"
+                    android:text="liste Des Clients" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

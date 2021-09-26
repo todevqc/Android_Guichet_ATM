@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Guichet automatique ATM</string>
+    <string name="nom">Nom du client : </string>
+    <string name="prenom">Prenom du client : </string>
+    <string name="numero">Numéro de compte : </string>
+    <string name="solde">Solde du compte : </string>
+</resources>

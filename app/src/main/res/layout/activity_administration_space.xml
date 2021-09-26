@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdministrationSpace">
+
+    <Button
+        android:id="@+id/btn_Logout"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="35dp"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Déconnexion"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_interet"
+        android:layout_width="220dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="180dp"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:text="Paiement des intérêts"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_compte_cheque"
+        android:layout_width="220dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="4dp"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:text="comptes chèque"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_interet" />
+
+    <Button
+        android:id="@+id/btn_compte_epargne"
+        android:layout_width="220dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="4dp"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:text="comptes épargne"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_compte_cheque" />
+
+    <Button
+        android:id="@+id/btn_liste_client"
+        android:layout_width="220dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="4dp"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:text="liste Des Clients"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_compte_epargne" />
+</androidx.constraintlayout.widget.ConstraintLayout>
